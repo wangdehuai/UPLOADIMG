@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E2FE6E4FC5F720844FD49CA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C0823F41D0BA0BC0F7B8E /* libPods.a */; };
+		790AF93B1BCD3AA5008EC9FA /* UPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790AF93A1BCD3AA5008EC9FA /* UPViewController.m */; settings = {ASSET_TAGS = (); }; };
 		79DCD3C51BCCE3A20000C2AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DCD3C41BCCE3A20000C2AD /* main.m */; };
 		79DCD3C81BCCE3A20000C2AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DCD3C71BCCE3A20000C2AD /* AppDelegate.m */; };
 		79DCD3CA1BCCE3A20000C2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DCD3C91BCCE3A20000C2AD /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		42CB20DBCC9D031983DBB53F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		790AF9391BCD3AA5008EC9FA /* UPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPViewController.h; sourceTree = "<group>"; };
+		790AF93A1BCD3AA5008EC9FA /* UPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPViewController.m; sourceTree = "<group>"; };
 		79DCD3C01BCCE3A20000C2AD /* UPLOADIMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPLOADIMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DCD3C41BCCE3A20000C2AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79DCD3C61BCCE3A20000C2AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			children = (
 				79DCD3D41BCCE3BB0000C2AD /* RootViewController.h */,
 				79DCD3D51BCCE3BB0000C2AD /* RootViewController.m */,
+				790AF9391BCD3AA5008EC9FA /* UPViewController.h */,
+				790AF93A1BCD3AA5008EC9FA /* UPViewController.m */,
 				79DCD3C31BCCE3A20000C2AD /* Supporting Files */,
 			);
 			path = UPLOADIMG;
@@ -205,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79DCD3C81BCCE3A20000C2AD /* AppDelegate.m in Sources */,
+				790AF93B1BCD3AA5008EC9FA /* UPViewController.m in Sources */,
 				79DCD3C51BCCE3A20000C2AD /* main.m in Sources */,
 				79DCD3D61BCCE3BB0000C2AD /* RootViewController.m in Sources */,
 			);
