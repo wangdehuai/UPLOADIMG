@@ -17,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    修改一
+    
 //    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
 //    AFHTTPRequestOperation *operation = [manager POST:mutPath parameters:param constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
 //        if (mediaDatas.count > 0) {
