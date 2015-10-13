@@ -13,6 +13,7 @@
 		79DCD3CA1BCCE3A20000C2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DCD3C91BCCE3A20000C2AD /* Assets.xcassets */; };
 		79DCD3CD1BCCE3A20000C2AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DCD3CB1BCCE3A20000C2AD /* LaunchScreen.storyboard */; };
 		79DCD3D61BCCE3BB0000C2AD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DCD3D51BCCE3BB0000C2AD /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		79EB74F81BCD07EF00D4A9B5 /* UPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EB74F71BCD07EF00D4A9B5 /* UPViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		79DCD3CE1BCCE3A20000C2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79DCD3D41BCCE3BB0000C2AD /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		79DCD3D51BCCE3BB0000C2AD /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		79EB74F61BCD07EF00D4A9B5 /* UPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPViewController.h; sourceTree = "<group>"; };
+		79EB74F71BCD07EF00D4A9B5 /* UPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPViewController.m; sourceTree = "<group>"; };
 		BD5C0823F41D0BA0BC0F7B8E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBF289DBCEF849B0B83FEA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +77,8 @@
 			children = (
 				79DCD3D41BCCE3BB0000C2AD /* RootViewController.h */,
 				79DCD3D51BCCE3BB0000C2AD /* RootViewController.m */,
+				79EB74F61BCD07EF00D4A9B5 /* UPViewController.h */,
+				79EB74F71BCD07EF00D4A9B5 /* UPViewController.m */,
 				79DCD3C31BCCE3A20000C2AD /* Supporting Files */,
 			);
 			path = UPLOADIMG;
@@ -205,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79DCD3C81BCCE3A20000C2AD /* AppDelegate.m in Sources */,
+				79EB74F81BCD07EF00D4A9B5 /* UPViewController.m in Sources */,
 				79DCD3C51BCCE3A20000C2AD /* main.m in Sources */,
 				79DCD3D61BCCE3BB0000C2AD /* RootViewController.m in Sources */,
 			);

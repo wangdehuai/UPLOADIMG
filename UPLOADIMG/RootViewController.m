@@ -71,6 +71,7 @@
         NSLog(@"该设备无摄像头");
     }
 }
+
 #pragma mark - 相册
 -(void)loadPhoto{
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
@@ -90,6 +91,7 @@
     [picker dismissViewControllerAnimated:YES completion:nil];
 }
 
+#pragma mark - 提交上传
 -(void)uploadDataWithImgData:(NSData *)imgData imgType:(NSString *)imgType imgTitle:(NSString *)imgTitle{
     AFHTTPRequestOperationManager * manager = [AFHTTPRequestOperationManager manager];
     manager.requestSerializer = [ AFHTTPRequestSerializer serializer ];
