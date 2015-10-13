@@ -7,7 +7,6 @@
 //
 
 #import "RootViewController.h"
-#import <AFNetworking.h>
 
 @interface RootViewController ()
 
